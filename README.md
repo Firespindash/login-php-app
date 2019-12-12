@@ -9,4 +9,4 @@ This simple web app has options to login, logout, create and delete user, and a 
 
 ## Set Up
 I made this app with php server utilizing the command `php -S localhost:9090` at terminal. \
-You have to make the database using the **login-php-app.sql**. The database already has a user named 'admin' with the password 'test1'. Passwords are stored in the database with md5. And also have to change the user name and the password for connection with database in the **connection-manager.php** file.
+You have to make the database using the **login-php-app.sql**. The database already has a user named 'admin' with the password 'test1'. And also have to change the user name and the password for connection with database in the **connection-manager.php** file. Passwords are stored in the database with md5.
