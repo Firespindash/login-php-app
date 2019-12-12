@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  background: linear-gradient(to right, #fdfbfb, #ebedee 70%);
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+}
+
+.box h2 {
+  margin: 0 0 50px;
+  color: #000;
+  text-align: center;
+  font-size: 50px;
+}
+
+.box .inputBox {
+  position: relative;
+}
+
+
+.box .inputBox input {
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 30px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  outline: none;
+  background: #fff;
+}
+
+.box .inputBox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  font-size: 20px;
+  color: #000;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+  top: -25px;
+  left: 0;
+  color: #03a9f4;
+  font-size: 15px;
+}
+
+.box .inputBox input:focus,
+.box .inputBox input:focus:required,
+.box .inputBox input:focus:invalid {
+  outline: none;
+  border-color: #03a9f4;
+}
+
+button {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+  border: 1px solid #0286c2;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  color: #0286c2;
+  transition: .4s ease;
+}
+
+button:hover {
+  background-color: #e4f6ff;
+}
+
+#error-msg {
+  color: #d50000;
+  position: absolute;
+  left: 10px;
+  top: 250px;
+  font-weight: lighter;
+  font-size: 10px;
+}
