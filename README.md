@@ -1,7 +1,7 @@
 # login-php-app
 Simple login system app made with php 7 and mariadb 10.4, but works in newer versions too. It doesn't use any frameworks. In the index page I used a UI preset from another project, you can see this project [here](https://github.com/Firespindash/index-html-ui-preset).
 
-![login-app](login-app(800x600).png)
+![login-app at 800x600 resolution](login-app.png)
 
 ## Usability
 You can navigate with Enter key on login and signup pages. \
