@@ -1,0 +1,109 @@
+* {
+  margin: 0; padding: 0;
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("img/website_image.png");
+  background-size: 100% 100%;
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+  font-size: 40px;
+  width: 290px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -45%);
+  padding-bottom: 320px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 114%;
+  color: white;
+}
+
+a {
+  text-align: center;
+  color: white;
+  font-size: 2vw;
+  padding: 25px 45px;
+}
+
+button {
+  width: 160px;
+  height: 47px;
+  position: absolute;
+  top: 64%;
+  left: 42%;
+  transform: translate(-64%, -42%);
+  text-align: center;
+  line-height: 30px;
+  color: black;
+  font-size: 27px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background: linear-gradient(to left, #00ffed, #9d00c6);
+  cursor: pointer;
+}
+
+#last {
+  padding-right: 12px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 340px;
+  height: 200px;
+}
+
+.logo {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4vw;
+  color: white;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.navbar {
+  position: fixed;
+  top: 30px;
+  right: 3px;
+}
+
+@media screen and (max-width: 600px){
+  .navbar {
+    top: 10px;
+  }
+  a {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .text {
+    top: 65%;
+    left: 55%;
+    transform: translate(-65%, -55%);
+  }
+  h1 {
+    top: 65%;
+    left: 45%;
+    transform: translate(-65%, -45%);
+  }
+  button {
+    top: 85%;
+    left: 42%;
+    transform: translate(-85%, -42%);
+  }
+}
